@@ -6,43 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us | Babycakes Bakery</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+        .about-container {
+            animation: fadeIn 1.2s ease-in;
+            padding: 1.5rem;
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .about-container h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-container p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1>Babycakes Bakery</h1>
+        <h1>🎂 Babycakes Bakery</h1>
         <nav>
             <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
             <a href="about.html">About</a>
-            <a href="#contact">Contact</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>About Us</h2>
-            <p>
-                At Babycakes Bakery, we're more than just a bake shop — we're a community staple, a family-run business,
-                and a place where every treat is made with heart.
-            </p>
-            <p>
-                Founded in 2010 in the heart of Austin, Babycakes started as a weekend pop-up by two sisters who shared
-                a passion for pastries and people. Over the years, we’ve grown into a cozy brick-and-mortar shop serving
-                hand-crafted desserts, locally sourced ingredients, and the same love we started with.
-            </p>
-            <p>
-                Whether you're grabbing your morning croissant, ordering a cake for your big day, or just stopping by
-                for a warm cookie and a chat — we’re happy to have you.
-            </p>
-        </section>
-
-        <section>
-            <h2>Meet the Bakers</h2>
-            <ul>
-                <li>👩‍🍳 Mia — Head Pastry Chef and co-founder</li>
-                <li>👩‍🍳 Lila — Cake Designer and co-founder</li>
-                <li>👨‍🍳 Joe — Bread and croissant specialist</li>
-            </ul>
+        <section class="about-container">
+            <h2>🍰 About Us</h2>
+            <p>Welcome to <strong>Babycakes Bakery</strong> — your cozy neighborhood bake shop in the ❤️ of Beaumont,
+                Texas!</p>
+            <p>We specialize in sweet creations like 🧁 cupcakes, 🍪 cookies, and 🎂 custom cakes — all made with love,
+                butter, and a sprinkle of joy.</p>
+            <p>Need a custom cake? We’ve got you covered with a <strong>48-hour turnaround</strong> on all special
+                orders! Perfect for birthdays, weddings, and every celebration in between 🎉</p>
+            <p>Come visit us and treat yourself to something sweet 😋</p>
         </section>
     </main>
 
