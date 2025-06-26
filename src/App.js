@@ -1,28 +1,17 @@
 import './App.css';
-import logo from './logo.png';
 import { motion } from 'framer-motion';
 
 function App() {
   return (
     <div className="App">
       <header className="header">
-        <div className="logo-title">
-          <motion.img
-            src={logo}
-            alt="Babycakes Icon"
-            className="header-icon"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
-          />
-          <motion.h1
-            initial={{ x: -100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-          >
-            Baby Cakes Bakery
-          </motion.h1>
-        </div>
+        <motion.h1
+          initial={{ y: -50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8 }}
+        >
+          Baby Cakes Bakery
+        </motion.h1>
         <nav className="nav-links">
           <a href="#menu">Menu</a>
           <a href="#about">About</a>
@@ -52,9 +41,7 @@ function App() {
         >
           <h2>About Us</h2>
           <p>
-            Welcome to Babycakes — a local, family-owned bakery dedicated to
-            crafting homemade sweets and cozy memories. Since 2010, we’ve served
-            our community with love, flour, and sugar.
+            Welcome to Babycakes — a local, family-owned bakery crafting homemade sweets and cozy memories since 2010.
           </p>
         </motion.section>
 
