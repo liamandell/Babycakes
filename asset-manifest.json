@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7354855.css",
-    "main.js": "/static/js/main.f3dd4c1e.js",
-    "static/js/453.ba26cde1.chunk.js": "/static/js/453.ba26cde1.chunk.js",
-    "static/media/logo.png": "/static/media/logo.528c839d2c27a977ce03.png",
-    "static/media/CinnamonRoll.jpeg": "/static/media/CinnamonRoll.2cb06f8c64cc7e16044c.jpeg",
-    "static/media/image12.png": "/static/media/image12.48693238fdd9f126cdcb.png",
-    "static/media/image16.jpeg": "/static/media/image16.430bf438081cb4fa55f6.jpeg",
-    "index.html": "/index.html",
-    "main.c7354855.css.map": "/static/css/main.c7354855.css.map",
-    "main.f3dd4c1e.js.map": "/static/js/main.f3dd4c1e.js.map",
-    "453.ba26cde1.chunk.js.map": "/static/js/453.ba26cde1.chunk.js.map"
+    "main.css": "/Babycakes/static/css/main.c7354855.css",
+    "main.js": "/Babycakes/static/js/main.97721d19.js",
+    "static/js/453.ba26cde1.chunk.js": "/Babycakes/static/js/453.ba26cde1.chunk.js",
+    "static/media/logo.png": "/Babycakes/static/media/logo.528c839d2c27a977ce03.png",
+    "static/media/CinnamonRoll.jpeg": "/Babycakes/static/media/CinnamonRoll.2cb06f8c64cc7e16044c.jpeg",
+    "static/media/image12.png": "/Babycakes/static/media/image12.48693238fdd9f126cdcb.png",
+    "static/media/image16.jpeg": "/Babycakes/static/media/image16.430bf438081cb4fa55f6.jpeg",
+    "index.html": "/Babycakes/index.html",
+    "main.c7354855.css.map": "/Babycakes/static/css/main.c7354855.css.map",
+    "main.97721d19.js.map": "/Babycakes/static/js/main.97721d19.js.map",
+    "453.ba26cde1.chunk.js.map": "/Babycakes/static/js/453.ba26cde1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7354855.css",
-    "static/js/main.f3dd4c1e.js"
+    "static/js/main.97721d19.js"
   ]
 }
